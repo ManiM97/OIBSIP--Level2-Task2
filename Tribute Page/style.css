@@ -1,0 +1,152 @@
+.bg-container{
+    /* background-image: linear-gradient(#fffdfd,#8c8a8a); */
+    background-color: lightgrey;
+    min-height: 100vh;
+}
+
+.card-container{
+    text-align: center;
+    padding: 20px;
+}
+
+.heading{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.birth-class{
+    font-size: 22px;
+    font-family: "Roboto";
+    padding-left: 5px;
+}
+
+.para{
+    font-size: 35px;
+}
+
+.image-container{
+    background-image: url("https://wallpaperaccess.com/full/3079086.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.quote-para{
+    color: white;
+    font-family: "Verdana";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.quote-container{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 210px;
+    right: 70px;
+}
+
+.bio-heading{
+    font-size: 50px;
+    font-family: "Roboto";
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.timeline-container{
+    padding: 40px;
+}
+
+.small-container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    /* background: rgba(0,0,0,0.3); */
+}
+
+.text-box{
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 14px;
+    font-size: 15px;
+    box-shadow: 15px 10px rgb(107, 106, 106);
+}
+
+.left-container{
+    left: 0;
+}
+.right-container{
+    left: 50%;
+}
+
+.small-container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+
+.right-container img{
+    left: -20px;
+}
+
+.text-box h2{
+    font-weight: 600;
+}
+.text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid white;
+    right: -15px;
+}
+
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid white;
+    left: -15px;
+}
+
+.timeline-container::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+.wiki-link{
+    color: black;
+}
+
+.icon-heart{
+    color: red;
+}
+
+blockquote {
+    border-left:none
+}
+
